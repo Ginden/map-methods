@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "proposal-map-methods",
+  "description": "New Map methods proposal for JavaScript (build setup only)",
+  "license": "Fair",
+  "scripts": {
+    "spec": "ecmarkup spec/index.html docs/index.html --js docs/ecmarkup.js --css docs/ecmarkup.css",
+    "watch": "ecmarkup --watch spec/index.html out/index.html --js out/ecmarkup.js --css out/ecmarkup.css"
+  },
+  "devDependencies": {
+    "ecmarkup": "^3.11.2"
+  },
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ginden/map-methods.git"
+  },
+  "keywords": [],
+  "author": "Michał Wadas <michalwadas@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/Ginden/map-methods/issues"
+  },
+  "homepage": "https://github.com/Ginden/map-methods#readme",
+  "dependencies": {
+
+  }
+}
